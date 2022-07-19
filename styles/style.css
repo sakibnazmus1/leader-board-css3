@@ -20,6 +20,7 @@ main {
 
 hr {
     border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
 }
 
 /* ----------Top players ---------*/
@@ -56,6 +57,12 @@ hr {
 }
 
 /* -------------secound blog styles------- */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+
 .blog {
     display: flex;
 }
